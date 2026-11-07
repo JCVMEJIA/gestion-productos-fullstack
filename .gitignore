@@ -1,0 +1,27 @@
+# Configuración local de ASP.NET Core
+**/appsettings.json
+**/appsettings.Development.json
+# .NET
+**/bin/
+**/obj/
+**/publish/
+.vs/
+*.user
+*.suo
+
+# Node / React
+**/node_modules/
+**/dist/
+**/build/
+
+# Variables y secretos
+.env
+.env.*
+!.env.example
+secrets.json
+
+# IDE y sistema operativo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
